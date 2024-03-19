@@ -1,3 +1,61 @@
-.header{
-    color: red;
+.logo img {
+    max-width: 120px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+}
+body {
+    margin: 0;
+    padding: 0 40px;
+}
+.nav-item ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item ul li {
+    margin: 0 10px;
+}
+.searchbar {
+    padding: 20px;
+}
+
+.resto-card {
+    border: 1px solid #fff;
+    max-width: 300px;
+    padding: 5px;
+    margin: 6px 6px;
+    background: #f0f0f0;
+}
+.resto-card img {
+    max-width: 100%;
+}
+.resto-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.resto-card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background: #000000d4;
+    padding: 20px 0;
+}
+.important-link ul {
+    color: #fff;
+    list-style: none;
+}
+.important-link ul li {
+    margin: 20px 0;
+}
+.rate-button {
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
 }
